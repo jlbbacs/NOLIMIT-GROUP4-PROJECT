@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Montserrat:wght@100&family=Poppins&family=Roboto+Slab&display=swap');
+
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+#body {
+   /* font-family: 'Lato', sans-serif; */
+   font-family: 'Poppins', sans-serif;
+}
+
+/* navbar */
+.navbar-brand h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    color:white;
+}
+
+.navbar{
+  background-color:  rgba(0, 0, 0, 0.5);
+ font-family: 'Bebas Neue', cursive;
+ font-size: 1.2rem;
+ letter-spacing: 1.3px;
+ padding-left: 13rem;
+ padding-right: 12rem;
+}
+
+.navbar ul li a{
+  color:white;
+  margin: 4px;
+}
+
+.navbar ul li a:hover{
+  color: red;
+}
+
+.navbar ul li a:hover::before{
+  color: red;
+}
+
+.navbar ul li a:hover::active{
+  color: red;
+}
+
+.navbar ul li a:hover::after{
+  color: red;
+  text-decoration: none;
+}
+
+
+.nav-item{
+  color: white;
+}
+
+
+.nav-link{
+  text-decoration: none;
+  color: white;
+ 
+}
+
+.nav-link:hover::active{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover::after{
+  text-decoration: none;
+  color: white;
+
+}
+
+.navbar-toggler{
+  color:white;
+}
+
+
+.dropdown-menu{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+
+a.dropdown-menu{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-item{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+a.dropdown-item{
+  background-color:  rgba(0, 0, 0, 0.5);
+
+}
+
+
+.dropdown-item:hover{
+  color:#D71619;
+}

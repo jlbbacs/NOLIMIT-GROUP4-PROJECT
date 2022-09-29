@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Montserrat:wght@100&family=Poppins&family=Roboto+Slab&display=swap');
+
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+#body {
+   /* font-family: 'Lato', sans-serif; */
+   font-family: 'Poppins', sans-serif;
+}
+
+/* navbar */
+.navbar-brand h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    color:white;
+}
+
+.navbar{
+  background-color:  rgba(0, 0, 0, 0.5);
+ font-family: 'Bebas Neue', cursive;
+ font-size: 1.2rem;
+ letter-spacing: 1.3px;
+ padding-left: 13rem;
+ padding-right: 12rem;
+}
+
+.navbar ul li a{
+  color:white;
+  margin: 4px;
+}
+
+.navbar ul li a:hover{
+  color: red;
+}
+
+.navbar ul li a:hover::before{
+  color: red;
+}
+
+.navbar ul li a:hover::active{
+  color: red;
+}
+
+.navbar ul li a:hover::after{
+  color: red;
+  text-decoration: none;
+}
+
+
+.nav-item{
+  color: white;
+}
+
+
+.nav-link{
+  text-decoration: none;
+  color: white;
+ 
+}
+
+.nav-link:hover::active{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover::after{
+  text-decoration: none;
+  color: white;
+
+}
+
+.navbar-toggler{
+  color:white;
+}
+
+
+.dropdown-menu{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+
+a.dropdown-menu{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-item{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+a.dropdown-item{
+  background-color:  rgba(0, 0, 0, 0.5);
+
+}
+
+
+.dropdown-item:hover{
+  color:#D71619;
+}
+
+
+
+hr{
+    width: 13.9%;
+    margin: 0 auto!important;
+    display: block;
+    height: 12px;
+}
+
+
+.title{
+    font-family: 'Roboto Slab', serif;
+  }
+  
+
+
+.box{
+ max-width: 70%;
+ margin: auto;
+}
+
+
+/* footer */
+footer{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1rem;
+letter-spacing: 1.3px;
+padding-top: 5rem;
+padding-bottom: 5rem;
+padding-left: 13rem;
+padding-right: 12rem;
+}
+
+.footer-brand h2{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3rem;
+}
+
+#footerLinks{
+  color: white;
+}
+#footerLinks:hover{
+  filter: brightness(80%);
+}
+
+.subscribe-btn{
+  background-color: #D71619;
+  padding: .5rem 2rem;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  border: none;
+  border-radius: 5px;
+}
+
+.subscribe-btn:hover{
+  filter: brightness(80%);
+}
+
+
+  #hr-about{
+    width: 100%;
+  }
+
+  #about-section{
+    padding: 15px;
+    border: solid 1px;  
+    
+  }
+
+
+  #h2-trainers{
+    margin-bottom: 10px;
+  }
+
+
+#col-border{
+  border: solid 1px grey;
+  border-radius: 10px;
+  /* background-color: beige; */
+}
+
+
+div.card-body{
+  padding-top: 3rem;
+  padding-right: 3rem;
+  color: #6A7C92;
+  min-height: 35rem;
+}
+
+.card-title{
+  color: #D71619;
+}
+
+#img{
+  min-height: 35rem;
+max-height: 35rem;
+}
+
+
+/* media query */
+@media screen and (min-width: 576px) and (max-width:767px){
+  div.card-body{
+    
+    font-size: .5rem;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+
+  }
+ 
+  
+    }
+
+
+   @media screen and (min-width: 768px) and (max-width:991px){
+
+    div.card-body{
+      font-size: .7rem;
+      image-rendering: auto;
+      image-rendering: crisp-edges;
+      image-rendering: pixelated;
+    }
+ 
+  
+   }
+  
+   
+   @media screen and (min-width: 992px) and (max-width: 1199px){
+    div.card-body{
+      font-size: .8rem;
+      image-rendering: auto;
+      image-rendering: crisp-edges;
+      image-rendering: pixelated;
+    }
+
+  }
+ 
+ 
+  @media screen and (min-width: 1200px) and (max-width:1279px){
+    div.card-body{
+      font-size: .9rem;
+      image-rendering: auto;
+      image-rendering: crisp-edges;
+      image-rendering: pixelated;
+    }
+
+ 
+ }
+  
+  
+  
+   @media screen and (min-width: 1280px) and (max-width:1360px){
+    div.card-body{
+      font-size: .9rem;
+      image-rendering: auto;
+      image-rendering: crisp-edges;
+      image-rendering: pixelated;
+    }
+
+
+    
+  
+   }
+  
+   @media screen and (min-width: 1361px) and (max-width:1600px){
+    div.card-body{
+      font-size: .9rem;
+      image-rendering: auto;
+      image-rendering: crisp-edges;
+      image-rendering: pixelated;
+    }
+  
+  
+   }

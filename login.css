@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Montserrat:wght@100&family=Poppins&family=Roboto+Slab&display=swap');
+
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+#body {
+   /* font-family: 'Lato', sans-serif; */
+   font-family: 'Poppins', sans-serif;
+}
+
+/* navbar */
+.navbar-brand h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    color:white;
+}
+
+.navbar{
+  background-color:  rgba(0, 0, 0, 0.5);
+ font-family: 'Bebas Neue', cursive;
+ font-size: 1.2rem;
+ letter-spacing: 1.3px;
+ padding-left: 13rem;
+ padding-right: 12rem;
+}
+
+.navbar ul li a{
+  color:white;
+  margin: 4px;
+}
+
+.navbar ul li a:hover{
+  color: red;
+}
+
+.navbar ul li a:hover::before{
+  color: red;
+}
+
+.navbar ul li a:hover::active{
+  color: red;
+}
+
+.navbar ul li a:hover::after{
+  color: red;
+  text-decoration: none;
+}
+
+.changeColor{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+.nav-item{
+  color: white;
+}
+
+
+.nav-link{
+  text-decoration: none;
+  color: white;
+ 
+}
+
+.nav-link:hover::active{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover::after{
+  text-decoration: none;
+  color: white;
+
+}
+
+.navbar-toggler{
+  color:white;
+}
+
+
+
+
+.main-container{
+  overflow-x: hidden;
+}
+
+/* hero page */
+.hero-banner{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('https://img.freepik.com/free-photo/people-active-exercises-concept-beautiful-european-young-woman-with-darkhair-dressed-sportswear_176532-9747.jpg?w=740&t=st=1659164056~exp=1659164656~hmac=22ab4d8dc0d4d90666bcb31784108ad099da08123dc07ee8253f15ab7cebde9c');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 30rem;
+    padding-bottom: 15rem;
+    padding-left: 13rem;
+    padding-right: 13rem;
+}
+
+
+
+#login{
+  margin-left: -1rem;
+  margin-top: -13rem;
+}
+
+
+.footer-brand h2{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3rem;
+  color: white;
+}
+
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button.btn{
+  background-color: #D71619;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+
+}
+
+button.btn:hover {
+  background-color: #D71619;
+  color: white;
+  filter: brightness(80%);
+}
+
+/* Extra styles for the cancel button */
+/* button.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #636262;
+} */
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+.login-btn{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+padding-top: 1rem;
+padding-bottom: 1rem;
+border-radius: 5px;
+}
+
+
+div.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}

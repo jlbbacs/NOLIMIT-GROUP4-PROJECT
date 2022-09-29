@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Montserrat:wght@100&family=Poppins&family=Roboto+Slab&display=swap');
+
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+#body {
+   /* font-family: 'Lato', sans-serif; */
+   font-family: 'Poppins', sans-serif;
+}
+
+/* navbar */
+.navbar-brand h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    color:white;
+}
+
+.navbar{
+  background-color:  rgba(0, 0, 0, 0.5);
+ font-family: 'Bebas Neue', cursive;
+ font-size: 1.2rem;
+ letter-spacing: 1.3px;
+ padding-left: 13rem;
+ padding-right: 12rem;
+}
+
+.navbar ul li a{
+  color:white;
+  margin: 4px;
+}
+
+.navbar ul li a:hover{
+  color: red;
+}
+
+.navbar ul li a:hover::before{
+  color: red;
+}
+
+.navbar ul li a:hover::active{
+  color: red;
+}
+
+.navbar ul li a:hover::after{
+  color: red;
+  text-decoration: none;
+}
+
+.changeColor{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+.nav-item{
+  color: white;
+}
+
+
+.nav-link{
+  text-decoration: none;
+  color: white;
+ 
+}
+
+.nav-link:hover::active{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover::after{
+  text-decoration: none;
+  color: white;
+
+}
+
+.navbar-toggler{
+  color:white;
+}
+
+
+.dropdown-menu{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+a.dropdown-item{
+  background-color: transparent;
+
+}
+
+
+.dropdown-menu:hover{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-item:hover{
+  color:#D71619;
+}
+
+
+
+hr{
+    width: 13.9%;
+    margin: 0 auto!important;
+    display: block;
+    height: 12px;
+}
+
+
+.title{
+    font-family: 'Roboto Slab', serif;
+  }
+
+
+
+/* footer */
+footer{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1rem;
+letter-spacing: 1.3px;
+padding-top: 5rem;
+padding-bottom: 5rem;
+padding-left: 13rem;
+padding-right: 12rem;
+}
+
+.footer-brand h2{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3rem;
+}
+
+#footerLinks{
+  color: white;
+}
+#footerLinks:hover{
+  filter: brightness(80%);
+}
+
+.subscribe-btn{
+  background-color: #D71619;
+  padding: .5rem 2rem;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  border: none;
+  border-radius: 5px;
+}
+
+.subscribe-btn:hover{
+  filter: brightness(80%);
+}
+
+
+  @media screen and (max-width: 480px){
+    .navbar{
+   font-size: 1.2rem;
+   letter-spacing: 1.3px;
+   padding-left: 3rem;
+   padding-right: 3rem;
+  }
+ 
+  
+  footer{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+   
+  #footer-row{
+    display: flex;
+    text-align: center;
+  }
+  
+  #footer-brand{
+    display: flex;
+    justify-content: center;
+  }
+    }
+   
+    @media screen and (min-width: 481px) and (max-width:575px){
+ 
+  .navbar{
+  letter-spacing: 1.3px;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  }
+  
+  footer{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  #footer-row{
+    display: flex;
+    text-align: center;
+  }
+  
+  #footer-brand{
+    display: flex;
+    justify-content: center;
+  }
+  
+    }
+   
+   
+   
+    @media screen and (min-width: 576px) and (max-width:767px){
+ 
+  
+  .navbar{
+  letter-spacing: 1.3px;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  }
+  
+ 
+  footer{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  
+    }
+   
+   
+   
+    @media screen and (min-width: 768px) and (max-width:991px){
+ 
+  .navbar{
+  letter-spacing: 1.3px;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  }
+  
+  footer{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  
+   
+    }
+   
+   
+   
+   
+   
+    @media screen and (min-width: 992px) and (max-width: 1199px){
+  
+      .navbar{
+      letter-spacing: 1.3px;
+      padding-left: 5rem;
+      padding-right: 5rem;
+      }
+         
+      footer{
+        padding-left: 5rem;
+        padding-right: 5rem;
+      }
+   
+   }
+  
+  
+   @media screen and (min-width: 1200px) and (max-width:1279px){
+ 
+    .navbar{
+    letter-spacing: 1.3px;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    }
+  
+ 
+    footer{
+      padding-left: 10rem;
+      padding-right: 10rem;
+    }
+  
+  }
+   
+   
+   
+    @media screen and (min-width: 1280px) and (max-width:1360px){
+ 
+      .navbar{
+      letter-spacing: 1.3px;
+      padding-left: 10rem;
+      padding-right: 10rem;
+      }
+    
+      footer{
+        padding-left: 10rem;
+        padding-right: 10rem;
+      }
+   
+    }
+   
+    @media screen and (min-width: 1361px) and (max-width:1600px){
+ 
+      .navbar{
+      letter-spacing: 1.3px;
+      padding-left: 10rem;
+      padding-right: 10rem;
+      }
+   
+  
+      footer{
+        padding-left: 10rem;
+        padding-right: 10rem;
+      }
+   
+    }
+    
+    @media screen and (min-width: 1601px) and (max-width:1799px){
+ 
+      .navbar{
+      letter-spacing: 1.3px;
+      padding-left: 10rem;
+      padding-right: 10rem;
+      }
+  
+      footer{
+        padding-left: 10rem;
+        padding-right: 10rem;
+      }
+   
+    }
+    
+  
+   
+    @media screen and (min-width: 1800px) and (max-width:1920px){
+ 
+      .navbar{
+        padding-left: 13rem;
+        padding-right: 12rem;
+      }
+      
+      footer{
+       padding-left: 13rem;
+       padding-right: 13rem;
+      }
+      
+     
+    }
+   
+   
+    @media screen and (min-width: 1921px) and (max-width:2560px){
+ 
+  .navbar{
+  font-size: 2rem;
+  letter-spacing: 1.3px;
+  padding-left: 13rem;
+  padding-right: 13rem;
+  }
+  
+  .navbar-brand h2{
+    font-size: 4rem;
+  }
+ 
+  footer{
+    padding-left: 13rem;
+    padding-right: 13rem;
+  }
+    }
+   
+    @media screen and (min-width: 2559px) and (max-width:2879px){
+ 
+  .navbar{
+  font-size: 2rem;
+  letter-spacing: 1.3px;
+  padding-left: 13rem;
+  padding-right: 13rem;
+  }
+  
+  .navbar-brand h2{
+    font-size: 4rem;
+  }
+  
+ 
+  footer{
+    padding-left: 13rem;
+    padding-right: 13rem;
+  }
+   
+    }
+   
+   
+    @media screen and (min-width: 2880px) and (max-width:3071px){
+  
+  .navbar{
+  font-size: 2rem;
+  letter-spacing: 1.3px;
+  padding-left: 13rem;
+  padding-right: 13rem;
+  }
+  
+  .navbar-brand h2{
+    font-size: 4rem;
+  }
+  
+ 
+  footer{
+    padding-left: 13rem;
+    padding-right: 13rem;
+  }
+    }
+   
+  
+  
+    @media screen and (min-width: 3072px){
+    
+  .navbar{
+  font-size: 2rem;
+  letter-spacing: 1.3px;
+  padding-left: 13rem;
+  padding-right: 13rem;
+  }
+  
+  .navbar-brand h2{
+    font-size: 4rem;
+  }
+  
+  footer{
+    padding-left: 13rem;
+    padding-right: 13rem;
+  }
+    }
+   

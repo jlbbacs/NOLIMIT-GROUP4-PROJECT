@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Montserrat:wght@100&family=Poppins&family=Roboto+Slab&display=swap');
+
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+#body {
+   /* font-family: 'Lato', sans-serif; */
+   font-family: 'Poppins', sans-serif;
+}
+
+/* navbar */
+.navbar-brand h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    color:white;
+}
+
+.navbar{
+  background-color:  rgba(0, 0, 0, 0.5);
+ font-family: 'Bebas Neue', cursive;
+ font-size: 1.2rem;
+ letter-spacing: 1.3px;
+ padding-left: 13rem;
+ padding-right: 12rem;
+}
+
+.navbar ul li a{
+  color:white;
+  margin: 4px;
+}
+
+.navbar ul li a:hover{
+  color: red;
+}
+
+.navbar ul li a:hover::before{
+  color: red;
+}
+
+.navbar ul li a:hover::active{
+  color: red;
+}
+
+.navbar ul li a:hover::after{
+  color: red;
+  text-decoration: none;
+}
+
+
+.nav-item{
+  color: white;
+}
+
+
+.nav-link{
+  text-decoration: none;
+  color: white;
+ 
+}
+
+.nav-link:hover::active{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover::after{
+  text-decoration: none;
+  color: white;
+
+}
+
+.navbar-toggler{
+  color:white;
+}
+
+
+.dropdown-menu{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+
+a.dropdown-menu{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-item{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+a.dropdown-item{
+  background-color:  rgba(0, 0, 0, 0.5);
+
+}
+
+
+.dropdown-item:hover{
+  color:#D71619;
+}
+
+#magnifyingGlass{
+font-size: 1rem;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.box{
+  margin: auto;
+}
+
+label {
+    font-family: 'Roboto Slab', serif;
+    margin-top: 2rem;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.search-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+   
+}
+
+#searchBox {
+    padding: 3px 30px;
+    border: 1px solid black;
+}
+
+
+input {
+    font-size: 1rem;
+}
+
+/* exercises container */
+.subContainer {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+    max-width: 100%;
+    gap: .25rem;
+    margin-top: 1rem;
+   
+}
+
+
+
+.card {
+    border: 1px solid black;
+    background-color: white;
+    padding: .5rem;
+    max-width: 65%;
+    margin-top: 1rem;
+}
+
+
+
+.hide{
+    display: none;
+}
+
+
+
+.exercisesImages{
+  margin-top: 1rem;
+  margin-bottom: 10rem;
+  max-width: 200px;
+  max-height: 300px;
+  /* border: 1px solid rgb(190, 188, 188); */
+}
+
+
+.pagination-container{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/* footer */
+footer{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1rem;
+letter-spacing: 1.3px;
+padding-top: 5rem;
+padding-bottom: 5rem;
+padding-left: 13rem;
+padding-right: 12rem;
+}
+
+.footer-brand h2{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3rem;
+}
+
+
+#footerLinks{
+  color: white;
+}
+#footerLinks:hover{
+  filter: brightness(80%);
+}
+
+.subscribe-btn{
+  background-color: #D71619;
+  padding: .5rem 2rem;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  border: none;
+  border-radius: 5px;
+}
+
+.subscribe-btn:hover{
+  filter: brightness(80%);
+}

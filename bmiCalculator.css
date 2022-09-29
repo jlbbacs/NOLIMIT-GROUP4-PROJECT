@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Montserrat:wght@100&family=Poppins&family=Roboto+Slab&display=swap');
+
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+#body {
+   /* font-family: 'Lato', sans-serif; */
+   font-family: 'Poppins', sans-serif;
+}
+
+/* navbar */
+.navbar-brand h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    color:white;
+}
+
+.navbar{
+  background-color:  rgba(0, 0, 0, 0.5);
+ font-family: 'Bebas Neue', cursive;
+ font-size: 1.2rem;
+ letter-spacing: 1.3px;
+ padding-left: 13rem;
+ padding-right: 12rem;
+}
+
+.navbar ul li a{
+  color:white;
+  margin: 4px;
+}
+
+.navbar ul li a:hover{
+  color: red;
+}
+
+.navbar ul li a:hover::before{
+  color: red;
+}
+
+.navbar ul li a:hover::active{
+  color: red;
+}
+
+.navbar ul li a:hover::after{
+  color: red;
+  text-decoration: none;
+}
+
+
+.nav-item{
+  color: white;
+}
+
+
+.nav-link{
+  text-decoration: none;
+  color: white;
+ 
+}
+
+.nav-link:hover::active{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover::after{
+  text-decoration: none;
+  color: white;
+
+}
+
+.navbar-toggler{
+  color:white;
+}
+
+
+.dropdown-menu{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+
+a.dropdown-menu{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-item{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+a.dropdown-item{
+  background-color:  rgba(0, 0, 0, 0.5);
+
+}
+
+
+.dropdown-item:hover{
+  color:#D71619;
+}
+
+
+
+hr{
+    width: 13.9%;
+    margin: 0 auto!important;
+    display: block;
+    height: 12px;
+}
+
+
+.title{
+    font-family: 'Roboto Slab', serif;
+  }
+
+
+
+span {
+   color: red;
+}
+
+.wrapper {
+   position: absolute;
+   max-width: 400px;
+   margin-top: 5rem;
+   top: 45%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding: 15px;
+   background-color: #f1f1f1;
+   border: 1px black solid;
+   border-radius: 5px;
+}
+
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   gap: 4px;
+}
+
+input {
+   outline: none;
+   border: none;
+   padding: 5px;
+   border: 1px solid #d5dbdd;
+   background-color: white;
+   font-size: 24px;
+   font-weight: bold;
+   width: 100%;
+}
+
+.wrapper h3 {
+   font-size: 16px;
+   text-transform: uppercase;
+   font-weight: bold;
+   margin: 16px 0 10px 0;
+}
+
+.wrapper .height,
+.wrapper .weight {
+   position: relative;
+}
+
+.wrapper .unit {
+   position: absolute;
+   right: 20px;
+   top: 50px;
+   color: #777;
+}
+
+button {
+   color: white;
+   padding: 9px 24px;
+   border-radius: 10px;
+   background-color: #d71619;
+   margin-top: 10%;
+   cursor: pointer;
+   font-weight: 100;
+   text-transform: uppercase;
+   border: none;
+}
+
+div.card {
+   position: absolute;
+   width: 20rem;
+   background-color: #f1f1f1;
+}
+
+div.box {
+   padding-top: 18rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+}
+
+input #height{
+  background-color: white;
+}
+
+input #weight{
+  background-color: white;
+}
+
+
+#output{
+  margin-top: .5rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+
+
+
+
+
+/* footer */
+footer {
+   font-family: 'Bebas Neue', cursive;
+   font-size: 1rem;
+   letter-spacing: 1.3px;
+   padding-top: 5rem;
+   padding-bottom: 5rem;
+   padding-left: 13rem;
+   padding-right: 12rem;
+}
+
+.footer-brand h2 {
+   font-family: 'Bebas Neue', cursive;
+   font-size: 3rem;
+}
+
+#footerLinks {
+   color: white;
+}
+#footerLinks:hover {
+   filter: brightness(80%);
+}
+
+.subscribe-btn {
+   background-color: #d71619;
+   padding: 0.5rem 2rem;
+   color: white;
+   font-family: 'Lato', sans-serif;
+   border: none;
+   border-radius: 5px;
+}
+
+.subscribe-btn:hover {
+   filter: brightness(80%);
+}
+
+.product-title {
+   color: #d71619;
+}
+
+
+
+
+@media screen and (max-width: 480px){
+  #output{
+    margin-top: .5rem;
+    font-size: 15px;
+    font-weight: 900;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width:575px){
+  #output{
+    margin-top: .5rem;
+    font-size: 15px;
+    font-weight: 900;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+}

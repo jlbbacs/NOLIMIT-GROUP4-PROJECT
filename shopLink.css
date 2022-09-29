@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Montserrat:wght@100&family=Poppins&family=Roboto+Slab&display=swap');
+
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+#body {
+   /* font-family: 'Lato', sans-serif; */
+   font-family: 'Poppins', sans-serif;
+}
+
+/* navbar */
+.navbar-brand h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    color:white;
+}
+
+.navbar{
+  background-color:  rgba(0, 0, 0, 0.5);
+ font-family: 'Bebas Neue', cursive;
+ font-size: 1.2rem;
+ letter-spacing: 1.3px;
+ padding-left: 13rem;
+ padding-right: 12rem;
+}
+
+.navbar ul li a{
+  color:white;
+  margin: 4px;
+}
+
+.navbar ul li a:hover{
+  color: red;
+}
+
+.navbar ul li a:hover::before{
+  color: red;
+}
+
+.navbar ul li a:hover::active{
+  color: red;
+}
+
+.navbar ul li a:hover::after{
+  color: red;
+  text-decoration: none;
+}
+
+
+.nav-item{
+  color: white;
+}
+
+
+.nav-link{
+  text-decoration: none;
+  color: white;
+ 
+}
+
+.nav-link:hover::active{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover::after{
+  text-decoration: none;
+  color: white;
+
+}
+
+.navbar-toggler{
+  color:white;
+}
+
+
+.dropdown-menu{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+
+a.dropdown-menu{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-item{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+a.dropdown-item{
+  background-color:  rgba(0, 0, 0, 0.5);
+
+}
+
+
+.dropdown-item:hover{
+  color:#D71619;
+}
+
+.btn2 {
+   background: black;
+   border: 1px solid black;
+   width: 100%;
+   padding: 6px;
+   border-radius: 5px;
+   font-size: medium;
+   color: white;
+}
+
+.btn2:hover {
+   border: 1px solid black;
+   width: 100%;
+   padding: 6px;
+   border-radius: 5px;
+   background: white;
+   font-size: medium;
+   color: black;
+}
+
+.btnAddToCart {
+   background: #d71619;
+   border: 1px solid #d71619;
+   width: 100%;
+   padding: 6px;
+   border-radius: 5px;
+   font-size: medium;
+   color: white;
+}
+
+.btnAddToCart:hover {
+   filter: brightness(80%);
+}
+
+.form-check-input {
+   background-color: black;
+}
+
+#exampleRadios1 {
+   background-color: black;
+   color: black;
+}
+
+div.pagination {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.disabled {
+   pointer-events: none;
+}
+
+.dPagination {
+   color: grey;
+}
+
+.aPagination {
+   color: black;
+}
+
+.aPagination:hover {
+   color: #d71619;
+}
+
+.iconify-inline{
+   font-size: 2rem;
+   margin-right: 1rem;
+   color: #333;
+}
+
+
+
+/* media query */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  
+
+   
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+   #details {
+      font-size: 0.6rem;
+   }
+
+   .btnAddToCart {
+      background: #d71619;
+      border: 1px solid #d71619;
+      width: 100%;
+      padding: 6px;
+      border-radius: 5px;
+      font-size: smaller;
+      color: white;
+   }
+
+   .form-select{
+      height: 2rem;
+      font-size: .5rem;
+   }
+
+   div.card.border{
+      margin-top: 5rem;
+   }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+   #details {
+      font-size: .7rem;
+   }
+
+   .btnAddToCart {
+      background: #d71619;
+      border: 1px solid #d71619;
+      width: 100%;
+      padding: 6px;
+      border-radius: 5px;
+      font-size: smaller;
+      color: white;
+   }
+
+   .form-select{
+      height: 2rem;
+      font-size: .5rem;
+   }
+
+   div.card.border{
+      margin-top: 1rem;
+   }
+}
+

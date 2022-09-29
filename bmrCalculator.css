@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Montserrat:wght@100&family=Poppins&family=Roboto+Slab&display=swap');
+
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+#body {
+   /* font-family: 'Lato', sans-serif; */
+   font-family: 'Poppins', sans-serif;
+}
+
+/* navbar */
+.navbar-brand h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    color:white;
+}
+
+.navbar{
+  background-color:  rgba(0, 0, 0, 0.5);
+ font-family: 'Bebas Neue', cursive;
+ font-size: 1.2rem;
+ letter-spacing: 1.3px;
+ padding-left: 13rem;
+ padding-right: 12rem;
+}
+
+.navbar ul li a{
+  color:white;
+  margin: 4px;
+}
+
+.navbar ul li a:hover{
+  color: red;
+}
+
+.navbar ul li a:hover::before{
+  color: red;
+}
+
+.navbar ul li a:hover::active{
+  color: red;
+}
+
+.navbar ul li a:hover::after{
+  color: red;
+  text-decoration: none;
+}
+
+
+.nav-item{
+  color: white;
+}
+
+
+.nav-link{
+  text-decoration: none;
+  color: white;
+ 
+}
+
+.nav-link:hover::active{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover::after{
+  text-decoration: none;
+  color: white;
+
+}
+
+.navbar-toggler{
+  color:white;
+}
+
+
+.dropdown-menu{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+
+a.dropdown-menu{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-item{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+a.dropdown-item{
+  background-color:  rgba(0, 0, 0, 0.5);
+
+}
+
+
+.dropdown-item:hover{
+  color:#D71619;
+}
+
+
+hr{
+    width: 13.9%;
+    margin: 0 auto!important;
+    display: block;
+    height: 12px;
+}
+
+
+.title{
+    font-family: 'Roboto Slab', serif;
+  }
+  
+
+
+
+span{
+    color: red;
+}
+
+
+
+
+button{
+    color: white;
+    padding: 10px;
+    border: 2px solid #D71619;
+    border-radius: 10px;
+    background-color: #D71619;
+    margin-top: 10%;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+
+
+.bmr-calculator{
+    max-width: 300px;
+    padding: 8px 24px;
+    box-shadow: 0 4px 8px -3px rgba(0, 0, 0, 0.3);
+    background-color: #f1f1f1;
+    border: 1px solid black;
+}
+
+.bmr-calculator,
+.bmr-calculator * {
+    box-sizing: border-box;
+}
+
+.bmr-calculator form h3{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 16px 0 10px 0;
+}
+
+
+.bmr-calculator form input[type="text"]{
+    width: 100%;
+    padding: 4px 16px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #d5dbdd;
+}
+
+.bmr-calculator form input[type="text"].invalid{
+    border: 1px solid red;
+}
+
+
+
+.bmr-calculator form {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.bmr-calculator form #female{
+    margin-left: 20px;
+}
+
+.bmr-calculator form .height,
+.bmr-calculator form .weight {
+    position: relative;
+}
+
+.bmr-calculator form .unit {
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    color: #777;
+}
+
+.bmr-calculator .result .calculate-btn{
+    padding: 8px 24px;
+    margin: 16px 0;
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: uppercase;
+    border: none;
+    margin-bottom: 32px;
+}
+
+.bmr-calculator .result {
+    text-align: center;
+    color: #4e4e4e;
+    font-size: 1rem;
+}
+
+.bmr-calculator .result .calories{
+    color: #D71619;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+div.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bmr-calculator .result .error-message {
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+
+.bmr-calculator .result .error-message.active{
+    display: block;
+}
+
+
+
+
+
+
+
+/* footer */
+footer{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1rem;
+letter-spacing: 1.3px;
+padding-top: 5rem;
+padding-bottom: 5rem;
+padding-left: 13rem;
+padding-right: 12rem;
+}
+
+.footer-brand h2{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3rem;
+}
+
+#footerLinks{
+  color: white;
+}
+#footerLinks:hover{
+  filter: brightness(80%);
+}
+
+.subscribe-btn{
+  background-color: #D71619;
+  padding: .5rem 2rem;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  border: none;
+  border-radius: 5px;
+}
+
+.subscribe-btn:hover{
+  filter: brightness(80%);
+}
+
+.product-title{
+    color: #D71619;
+  }
+

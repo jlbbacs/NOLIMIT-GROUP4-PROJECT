@@ -1,0 +1,272 @@
+@media screen and (max-width: 480px){
+   .navbar{
+  font-size: 1.2rem;
+  letter-spacing: 1.3px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+ }
+
+ 
+ footer{
+   padding-left: 3rem;
+   padding-right: 3rem;
+ }
+
+ #footer-row{
+  display: flex;
+  text-align: center;
+}
+
+#footer-brand{
+  display: flex;
+  justify-content: center;
+}
+  
+   }
+  
+   @media screen and (min-width: 481px) and (max-width:575px){
+
+ .navbar{
+ letter-spacing: 1.3px;
+ padding-left: 5rem;
+ padding-right: 5rem;
+ }
+ 
+ footer{
+   padding-left: 5rem;
+   padding-right: 5rem;
+ }
+ 
+
+ #footer-row{
+  display: flex;
+  text-align: center;
+}
+
+#footer-brand{
+  display: flex;
+  justify-content: center;
+}
+   }
+  
+  
+  
+   @media screen and (min-width: 576px) and (max-width:767px){
+
+ 
+ .navbar{
+ letter-spacing: 1.3px;
+ padding-left: 5rem;
+ padding-right: 5rem;
+ }
+ 
+
+ footer{
+   padding-left: 5rem;
+   padding-right: 5rem;
+ }
+ 
+   }
+  
+  
+  
+   @media screen and (min-width: 768px) and (max-width:991px){
+
+ .navbar{
+ letter-spacing: 1.3px;
+ padding-left: 5rem;
+ padding-right: 5rem;
+ }
+ 
+ footer{
+   padding-left: 5rem;
+   padding-right: 5rem;
+ }
+ 
+  
+   }
+  
+  
+  
+  
+  
+   @media screen and (min-width: 992px) and (max-width: 1199px){
+ 
+     .navbar{
+     letter-spacing: 1.3px;
+     padding-left: 5rem;
+     padding-right: 5rem;
+     }
+        
+     footer{
+       padding-left: 5rem;
+       padding-right: 5rem;
+     }
+  
+  }
+ 
+ 
+  @media screen and (min-width: 1200px) and (max-width:1279px){
+
+   .navbar{
+   letter-spacing: 1.3px;
+   padding-left: 10rem;
+   padding-right: 10rem;
+   }
+ 
+
+   footer{
+     padding-left: 10rem;
+     padding-right: 10rem;
+   }
+ 
+ }
+  
+  
+  
+   @media screen and (min-width: 1280px) and (max-width:1360px){
+
+     .navbar{
+     letter-spacing: 1.3px;
+     padding-left: 10rem;
+     padding-right: 10rem;
+     }
+   
+     footer{
+       padding-left: 10rem;
+       padding-right: 10rem;
+     }
+  
+   }
+  
+   @media screen and (min-width: 1361px) and (max-width:1600px){
+
+     .navbar{
+     letter-spacing: 1.3px;
+     padding-left: 10rem;
+     padding-right: 10rem;
+     }
+  
+ 
+     footer{
+       padding-left: 10rem;
+       padding-right: 10rem;
+     }
+  
+   }
+   
+   @media screen and (min-width: 1601px) and (max-width:1799px){
+
+     .navbar{
+     letter-spacing: 1.3px;
+     padding-left: 10rem;
+     padding-right: 10rem;
+     }
+ 
+     footer{
+       padding-left: 10rem;
+       padding-right: 10rem;
+     }
+  
+   }
+   
+ 
+  
+   @media screen and (min-width: 1800px) and (max-width:1920px){
+
+     .navbar{
+       padding-left: 13rem;
+       padding-right: 12rem;
+     }
+     
+     footer{
+      padding-left: 13rem;
+      padding-right: 13rem;
+     }
+     
+    
+   }
+  
+  
+   @media screen and (min-width: 1921px) and (max-width:2560px){
+
+ .navbar{
+ font-size: 2rem;
+ letter-spacing: 1.3px;
+ padding-left: 13rem;
+ padding-right: 13rem;
+ }
+ 
+ .navbar-brand h2{
+   font-size: 4rem;
+ }
+
+ footer{
+   padding-left: 13rem;
+   padding-right: 13rem;
+ }
+   }
+  
+   @media screen and (min-width: 2559px) and (max-width:2879px){
+
+ .navbar{
+ font-size: 2rem;
+ letter-spacing: 1.3px;
+ padding-left: 13rem;
+ padding-right: 13rem;
+ }
+ 
+ .navbar-brand h2{
+   font-size: 4rem;
+ }
+ 
+
+ footer{
+   padding-left: 13rem;
+   padding-right: 13rem;
+ }
+  
+   }
+  
+  
+   @media screen and (min-width: 2880px) and (max-width:3071px){
+ 
+ .navbar{
+ font-size: 2rem;
+ letter-spacing: 1.3px;
+ padding-left: 13rem;
+ padding-right: 13rem;
+ }
+ 
+ .navbar-brand h2{
+   font-size: 4rem;
+ }
+ 
+
+ footer{
+   padding-left: 13rem;
+   padding-right: 13rem;
+ }
+   }
+  
+ 
+ 
+   @media screen and (min-width: 3072px){
+   
+ .navbar{
+ font-size: 2rem;
+ letter-spacing: 1.3px;
+ padding-left: 13rem;
+ padding-right: 13rem;
+ }
+ 
+ .navbar-brand h2{
+   font-size: 4rem;
+ }
+ 
+ footer{
+   padding-left: 13rem;
+   padding-right: 13rem;
+ }
+   }
+  

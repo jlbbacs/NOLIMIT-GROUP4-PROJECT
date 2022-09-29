@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+         crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="login.css" />
+      <link rel="stylesheet" href="navFooterMediaQuery.css">
+      <link rel="stylesheet" href="navFooter.css">
+      <link
+         rel="shortcut icon"
+         href="photos/no limit favicon.png"
+         type="image/x-icon"
+      />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
+      <link
+         href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.css"
+         rel="stylesheet"
+      />
+      <link
+         rel="shortcut icon"
+         href="./photos/favicon (2).ico"
+         type="image/x-icon"
+      />
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+      <link rel="stylesheet" href="navFooterMediaQuery.css">
+      <title>Mini Project 2</title>
+   </head>
+   <body id="body">
+      <div class="main-container">
+         <header>
+            <!-- Navbar -->
+
+            <nav class="navbar navbar-expand-lg fixed-top shadow-none">
+               <!-- <div class="container"> -->
+               <a href="index.html" class="navbar-brand text-light"
+                  ><h2 class="mt-2">
+                     <sub><em>NO</em></sub
+                     ><sup><em>LIMIT</em></sup>
+                  </h2></a
+               >
+
+               <button
+                  class="navbar-toggler text-dark"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navmenu"
+               >
+                  <i class="fa-solid fa-bars"></i>
+               </button>
+               <div class="collapse navbar-collapse" id="navmenu">
+                  <ul class="navbar-nav ms-auto">
+                     <li class="nav-item">
+                        <a
+                           href="index.html
+                       "
+                           class="nav-link"
+                           >HOME</a
+                        >
+                     </li>
+                     <li class="nav-item">
+                        <a
+                           href="exercises.html
+                     "
+                           class="nav-link"
+                           >EXERCISES</a
+                        >
+                     </li>
+                     <li class="nav-item">
+                        <a
+                           href="classes.html
+                    "
+                           class="nav-link"
+                           >CLASSES</a
+                        >
+                     </li>
+                     <li class="nav-item">
+                        <a
+                           href="pricing.html
+                  "
+                           class="nav-link"
+                           >PRICING</a
+                        >
+                     </li>
+                     <li class="nav-item">
+                        <a
+                           href="shop.html
+                    "
+                           class="nav-link"
+                           >SHOP</a
+                        >
+                     </li>
+                     <li class="nav-item">
+                        <a
+                           href="about.html
+                    "
+                           class="nav-link"
+                           >ABOUT</a
+                        >
+                     </li>
+                     <li class="nav-item">
+                        <a
+                           href="logIn.html
+                    "
+                           class="nav-link" 
+                           >LOGIN</a
+                        >
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+         </header>
+
+            <!-- Hero Banner Section -->
+            <section
+               class="hero-banner col-sm col-md col-xl col-xxl" id="hero-banner">
+<div class="container">
+                  <div class="container">
+                     <div class="row" id="login">
+                        <div class="col-sm">
+
+                           <form class="modal-content animate" action="/action_page.php" method="post">
+                              <div class="imgcontainer">
+                                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                
+                              </div>
+                          
+                              <div class="container">
+                             <h1 class="text-center">Log In</h1>
+                             <p class="text-center">New to this site? <a href="signup.html"> Sign Up</a></p>
+                          <div>
+                                    <a href="javascript:void(0);" onclick="fbLogin();" id="fbLink"><img src="photos/facebook-login.jfif"/></a>
+                                 </div>
+                                 <p class="text-center">or </p>
+                                  <button class="login-btn">Log In with Email
+                                 </button>
+                                 <div class="ac-data" id="userData"></div>
+                                
+                              </div>
+                          
+                              <div class="container">
+                               <div class="row">
+                               
+                               
+                                
+                              </div>
+                           </div>
+                        </div>
+                              <div class="col-sm"></div>
+                        <div class="col-sm"></div>
+                        
+                        
+                   
+                     
+
+
+
+
+                 
+               
+         </section>
+            
+
+         <!-- Footer -->
+         <footer
+            class="text-lg-start text-white mt-5"
+            style="background-color: #141414"
+         >
+            <!-- <div class="container"> -->
+               <div class="row" id="footer-row">
+                  <div class="col-xs col-sm col-md col-lg-3 mb-4 mt-5">
+                     <div class="footer-brand">
+                     <h2>
+                        <sub><em>NO</em></sub
+                        ><sup><em>LIMIT</em></sup>
+                     </h2>
+                  </div>
+
+              <p>© 2020 NO Limit</p>
+              <p>ALL RIGHTS RESERVED</p>
+           </div>
+
+           <div class="col-xs col-sm col-md col-lg-3 mb-4 mt-5">
+            <h5 class="text-uppercase">Contact Us :</h5>
+
+            <ul class="list-unstyled mb-0">
+               <li>NY, NY</li>
+               <li>Mail: info@nolimit.com</li>
+               <li>
+                  <a href="terms.html" id="footerLinks"
+                     >Terms and Conditions
+                  </a>
+               </li>
+               <li>
+                  <a href="terms.html" id="footerLinks"
+                     >Liability Waiver</a
+                  >
+               </li>
+               <li>
+                  <a href="privacy.html" id="footerLinks"
+                     >Privacy Policy</a
+                  >
+               </li>
+            </ul>
+         </div>
+         
+           <div class="col-xs col-sm col-md col-lg-3 mb-4 mt-5">
+              <h5 class="text-uppercase">FIND US ON:</h5>
+
+              <a
+                 class="btn btn-outline-light btn-floating m-1"
+                 href="#!"
+                 role="button"
+                 id="footerLinks"
+                 ><i class="fab fa-facebook fa-1x"></i
+              ></a>
+
+              <a
+                 class="btn btn-outline-light btn-floating m-1"
+                 href="#!"
+                 role="button"
+                 id="footerLinks"
+                 ><i class="fab fa-google"></i
+              ></a>
+
+              <a
+                 class="btn btn-outline-light btn-floating m-1"
+                 href="#!"
+                 role="button"
+                 id="footerLinks"
+                 ><i class="fab fa-instagram"></i
+              ></a>
+           </div>
+
+           <div
+              class="col-xs col-sm col-md col-lg-3 mb-4 mt-5 text-center"
+              id="newsletter"
+           >
+              <h5 class="text-uppercase">SUBSCRIBE TO OUR NEWSLETTER:</h5>
+              <button class="subscribe-btn mt-3 mb-3">SUBSCRIBE</button>
+              <br />
+              <a href="">
+                 <img
+                    src="./photos/apple-store-black.png"
+                    alt=""
+                    class="mb-3"
+              /></a>
+              <a href="">
+                 <img
+                    src="./photos/google-play-black.png"
+                    alt=""
+                    class="mb-3"
+              /></a>
+           </div>
+        </div>
+     </footer>
+     <!-- footer -->
+
+      </div>
+      
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+         crossorigin="anonymous"
+      ></script>
+      <script
+         src="https://kit.fontawesome.com/656d817613.js"
+         crossorigin="anonymous"
+      ></script>
+      <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+      <script src="index.js"></script>
+      <!-- AOS -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+         AOS.init();
+      </script>
+                              
+<script type='text/javascript'>
+   (function(I, L, T, i, c, k, s) {if(I.iticks) return;I.iticks = {host:c, settings:s, clientId:k, cdn:L, queue:[]};var h = T.head || T.documentElement;var e = T.createElement(i);var l = I.location;e.async = true;e.src = (L||c)+'/client/inject-v2.min.js';h.insertBefore(e, h.firstChild);I.iticks.call = function(a, b) {I.iticks.queue.push([a, b]);};})(window, 'https://cdn-v1.intelliticks.com/prod/common', document, 'script', 'https://app.intelliticks.com', '8Y2H6pJ3AbbaTTcsp_c', {});
+</script>
+  
+<!--end -->
+    
+    
+    <script>
+      window.fbAsyncInit = function() {
+          // FB JavaScript SDK configuration and setup
+          FB.init({
+            appId      : '783824669467460', // FB App ID
+            cookie     : true,  // enable cookies to allow the server to access the session
+            xfbml      : true,  // parse social plugins on this page
+            version    : 'v3.2' // use graph api version 2.8
+          });
+          
+          // Check whether the user already logged in
+          FB.getLoginStatus(function(response) {
+              if (response.status === 'connected') {
+                  //display user data
+                  getFbUserData();
+              }
+          });
+      };
+      
+      
+      // Load the JavaScript SDK asynchronously
+      (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "https://connect.facebook.net/en_US/sdk.js";
+          fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+      
+      // Facebook login with JavaScript SDK
+      function fbLogin() {
+          FB.login(function (response) {
+              if (response.authResponse) {
+                  // Get and display the user profile data
+                  getFbUserData();
+              } else {
+                  document.getElementById('status').innerHTML = 'User cancelled login or did not fully authorize.';
+              }
+          }, {scope: 'email'});
+      }
+      
+      
+      // Fetch the user profile data from facebook
+      function getFbUserData(){
+          FB.api('/me', {locale: 'en_US', fields: 'id,first_name,last_name,email,link,gender,locale,picture'},
+          function (response) {
+              document.getElementById('fbLink').setAttribute("onclick","fbLogout()");
+              document.getElementById('fbLink').innerHTML = 'Logout from Facebook';
+              document.getElementById('status').innerHTML = '<p>Thanks for logging in, ' + response.first_name + '!</p>';
+              document.getElementById('userData').innerHTML = '<h2>Facebook Profile Details</h2><p><img src="'+response.picture.data.url+'"/></p><p><b>Name:</b> '+response.first_name+' '+response.last_name+'</p><p><b>Email:</b> '+response.email+'</p><p><b>Gender:</b> '+response.gender+'</p><p><b>FB Profile:</b> <a target="_blank" href="'+response.link+'">click to view profile</a></p>';
+              
+
+
+              let paula = {
+   fb_email : response.email,
+   fb_image : response.picture.data.url,
+   fb_firstname : response.first_name,
+   fb_lastname : response.last_name,
+   fb_link : response.link 
+   }
+window.localStorage.setItem("fbcheck", JSON.stringify(paula));
+
+
+
+          });
+      }
+      
+      // Logout from facebook
+      function fbLogout() {
+         window.localStorage.removeItem("fbcheck");
+          FB.logout(function() {
+              document.getElementById('fbLink').setAttribute("onclick","fbLogin()");
+              document.getElementById('fbLink').innerHTML = '<img src="images/fb-login-btn.png"/>';
+              document.getElementById('userData').innerHTML = '';
+              document.getElementById('status').innerHTML = '<p>You have successfully logout from Facebook.</p>';
+          });
+      }
+      </script>
+
+
+
+<script>
+function getCookie(user) {
+    var cookieArr = document.cookie.split(";");
+    for(var i = 0; i < cookieArr.length; i++) {
+        var cookiePair = cookieArr[i].split("=");
+        if(user == cookiePair[0].trim()) {
+            return decodeURIComponent(cookiePair[1]);
+        }
+    }
+    return null;
+}
+
+
+window.addEventListener('load', function() {
+//     setTimeout(function() {
+//       //  
+//       // let CheckCookie = document.cookie.match(/^(.;)?\sfbm_783824669467460\s=\s[^;]+(.*)?$/);
+
+
+let jeffrey = window.localStorage.getItem("fbcheck");
+let fbdata = JSON.parse(jeffrey);
+if (jeffrey.length) {
+document.getElementById('userData').innerHTML = '<h2>Facebook Profile Details</h2><p><img src="'+fbdata.fb_image+'"/></p><p><b>Name:</b> '+fbdata.fb_firstname+' '+fbdata.fb_lastname+'</p><p><b>Email:</b> '+fbdata.fb_email+'</p><p><b>FB Profile:</b> <a target="_blank" href="'+fbdata.fb_link+'">click to view profile</a></p>';
+document.getElementById('fbLink').setAttribute("onclick","fbLogout()");
+document.getElementById('fbLink').innerHTML = 'Logout from Facebook';
+
+}
+
+//       let CheckCookie = getCookie('fbm_783824669467460')
+//     if(CheckCookie=='base_domain'){
+//       document.getElementById("fbLink").click();
+//     }
+//     }, 3000);
+});
+
+  
+   
+
+
+
+</script>
+
+
+
+   </body>
+</html>
